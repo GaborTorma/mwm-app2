@@ -1,0 +1,17 @@
+{
+  "git": {
+    "requireCleanWorkingDir": true,
+    "commitMessage": "Release: ${version}",
+    "tagAnnotation": "Release: ${version}",
+    "tagName": "v${version}",
+    "requireCommits": true,
+    "requireCommitsFail": false
+  },
+  "github": {
+    "web": true,
+    "release": true
+  },
+  "npm": {
+    "publish": false
+  }
+}

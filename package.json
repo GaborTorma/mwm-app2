@@ -1,0 +1,20 @@
+{
+  "name": "mwm-app1",
+  "type": "module",
+  "version": "0.0.26",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "release": "release-it"
+  },
+  "dependencies": {
+    "@gabortorma/antfu-eslint-config": "^0.5.16",
+    "@gt-packages/mwm-package1": "0.1.15",
+    "@gt-packages/mwm-package2": "0.2.16",
+    "release-it": "^17.4.1"
+  }
+}
